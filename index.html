@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png" />
+    <title>Frontend Mentor | Huddle landing page with curved sections</title>
+    <link href="dist/output.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Poppins:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body class="bg-veryPaleBlue">
+    <!-- navbar start -->
+    <nav class="px-5 py-3 md:px-20 md:py-5">
+      <div class="container flex justify-between items-center">
+        <img src="images/logo.svg" alt="logo" class="w-32" />
+        <button class="border border-pink py-1.5 px-5 rounded-full text-pink font-openSans shadow-sm shadow-pink">Try it free</button>
+      </div>
+    </nav>
+    <!-- navbar end -->
+
+    <!-- header start -->
+    <header class="px-6 py-20 md:px-20">
+      <div class="container flex flex-col gap-20 items-center md:gap-28">
+        <div class="flex flex-col gap-7 items-center text-center md:justify-center md:gap-10">
+          <h1 class="header-h1 font-poppins text-2xl font-bold text-veryDarkCyan md:text-5xl">Build The Community Your Fans Will Love</h1>
+          <p class="header-p font-openSans text-sm text-veryDarkCyan md:text-base md:w-1/2">
+            Huddle re-imagines the way we build communities. You have a voice, but so does your audience. Create connections with your users as you engage in genuine discussion.
+          </p>
+          <div class="header-btn">
+            <button class="block bg-pink text-veryPaleBlue font-openSans py-2 px-7 rounded-full border shadow-md border-pink hover:bg-veryPaleBlue hover:text-pink transition duration-200 md:px-10 md:py-2.5">Get Started For Free</button>
+          </div>
+        </div>
+
+        <img src="images/screen-mockups.svg" alt="" />
+
+        <div class="w-full flex flex-col items-center gap-16 md:flex-row md:justify-around">
+          <div>
+            <img src="images/icon-communities.svg" alt="icon-communities" />
+            <h2 class="font-openSans text-6xl font-bold my-2 text-veryDarkCyan">1.4K+</h2>
+            <p class="font-openSans text-slate-400">Communities Formed</p>
+          </div>
+
+          <div>
+            <img src="images/icon-messages.svg" alt="icon-messages" />
+            <h2 class="font-openSans text-6xl font-bold my-2 text-veryDarkCyan">2.7m+</h2>
+            <p class="font-openSans text-slate-400">Messages Sent</p>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- header end -->
+
+    <!-- section grow-togethet start -->
+    <section class="px-6 py-20 md:px-20">
+      <div class="container flex flex-col gap-20 items-center text-center md:flex-row-reverse md:text-left">
+        <img src="images/illustration-grow-together.svg" alt="illustration-grow-together" class="md:w-1/2" />
+        <div class="md:w-1/2">
+          <h2 class="font-openSans text-3xl font-bold text-veryDarkCyan mb-4 md:text-4xl">Grow Together</h2>
+          <p class="font-openSans text-sm md:font-base md:leading-5">Generate meaningful discussions with your audience and build a strong, loyal community. Think of the insightful conversations you miss out on with a feedback form.</p>
+        </div>
+      </div>
+    </section>
+    <!-- section grow-togethet end -->
+
+    <!-- section flowing-onversations start -->
+    <section class="px-6 py-20 md:px-20">
+      <div class="container flex flex-col gap-20 items-center text-center md:flex-row md:text-left">
+        <img src="images/illustration-flowing-conversation.svg" alt="illustration-flowing-conversation" class="md:w-1/2" />
+        <div class="md:w-1/2">
+          <h2 class="font-openSans text-3xl font-bold text-veryDarkCyan mb-4 md:text-4xl">Flowing Conversations</h2>
+          <p class="font-openSans text-sm md:font-base md:leading-5">You wouldn't paginate a conversation in real life, so why do it online? Our threads have just-in-time loading for a more natural flow.</p>
+        </div>
+      </div>
+    </section>
+    <!-- section flowing-onversations end -->
+
+    <!-- section your-user start -->
+    <section class="px-6 py-20 md:px-20">
+      <div class="container flex flex-col gap-20 items-center text-center md:flex-row-reverse md:text-left">
+        <img src="images/illustration-your-users.svg" alt="illustration-your-users" class="md:w-1/2" />
+        <div class="md:w-1/2">
+          <h2 class="font-openSans text-3xl font-bold text-veryDarkCyan mb-4 md:text-4xl">Your Users</h2>
+          <p class="font-openSans text-sm md:font-base md:leading-5">It takes no time at all to integrate Huddle with your app's authentication solution. This means, once signed in to your app, your users can start chatting immediately.</p>
+        </div>
+      </div>
+    </section>
+    <!-- section your-user end -->
+
+    <!-- section ready start -->
+    <section class="px-6 py-28 md:px-20">
+      <div class="container flex flex-col items-center text-center gap-5 md:gap-8">
+        <h1 class="font-poppins text-2xl md:text-4xl">Ready To Build Your Community?</h1>
+        <button class="bg-pink text-veryPaleBlue font-openSans py-2 px-7 rounded-full border shadow-md border-pink hover:bg-veryPaleBlue hover:text-pink transition duration-200 md:px-10 md:py-2.5">Get Started For Free</button>
+      </div>
+    </section>
+    <!-- section ready end -->
+
+    <!-- footer start  -->
+    <footer class="bg-veryDarkCyan relative pt-20 md:pt-56">
+      <img src="images/bg-section-bottom-mobile-1.svg" alt="wave" class="wave w-full absolute top-0" />
+      <div class="container bg-veryDarkCyan px-6 py-10 md:px-20 md:w-full md:flex md:flex-row-reverse md:justify-between">
+        <div class="flex flex-col gap-5 mb-16 md:w-1/2">
+          <h2 class="text-veryPaleBlue font-openSans font-bold text-2xl">NEWSLETTER</h2>
+          <p class="text-veryPaleBlue font-openSans text-sm md:text-base">Newsletter To recieve tips on how to grow your community, sign up to our weekly newsletter. We’ll never send you spam or pass on your email address</p>
+          <div class="flex flex-col gap-5 md:flex-row">
+            <input type="text" class="rounded-md p-2 outline-none text-slate-800 font-openSans w-full" />
+            <button class="self-end bg-pink text-veryPaleBlue font-openSans py-2 px-7 rounded-md border shadow-md border-pink hover:bg-veryPaleBlue hover:text-pink transition duration-200 md:px-10 md:py-2.5">Subscribe</button>
+          </div>
+        </div>
+
+        <div class="flex flex-col gap-7 md:w-1/2">
+          <div>
+            <div class="flex gap-2">
+              <svg class="scale-75" width="48" height="40" xmlns="http://www.w3.org/2000/svg">
+                <path
+                  d="M29.44.24C21.336.236 12.88 2.062 4.346 4.43c-1.083.217-2.141.927-2.7 1.804-.515.825-.7 1.656-.862 2.526-.83 4.645-.728 9.207-.555 14.262.037 1.156.21 2.528.75 3.361.564.843 1.531 1.377 2.686 1.553 1.484.225 2.962.394 4.44.55l-.327 9.126a1.97 1.97 0 0 0 .744 1.676c.395.3.835.434 1.286.467.902.068 1.96-.318 2.487-1.318 2.301-4.432 3.747-6.388 6.626-9.332 7.51.184 14.065-.233 21.488-.782 2.624-.068 4.424-2.214 4.9-3.926 1.425-4.44 1.646-9.92 1.797-15.46.064-2.197-.698-4.352-2.047-5.491-1.281-1.04-2.834-1.418-4.256-1.803C36.851.748 32.898.267 29.44.24zm10.796 3.473c1.424.386 2.68.76 3.471 1.402 1.323 1.405 1.279 2.34 1.26 3.856-.149 5.373-.407 10.588-1.62 14.54-.523 1.474-1.433 2.523-3.154 2.682-7.561.56-14.122.99-21.723.775a1.083 1.083 0 0 0-.8.317c-3.194 3.224-4.828 5.466-7.261 10.15-.057.108-.18.172-.33.184-.102-.006-.143-.084-.15-.155l.33-9.895c.02-.534-.421-1.044-.952-1.102-1.77-.172-3.535-.383-5.308-.65-.762-.117-1.043-.325-1.252-.635-.363-.866-.354-1.401-.383-2.234-.17-5.009-.253-9.387.516-13.742.071-.645.312-1.304.568-1.854.424-.663 1.074-.76 1.725-.941 8.346-2.304 16.512-4.029 24.2-4.034 3.768.137 7.726.515 10.863 1.336zM11.407 12.2c-1.15 1.379-1.035 3.248-.147 4.502.464.655 1.188 1.183 2.07 1.302 1.144.094 1.87-.369 2.653-.901 1.42-1.235 1.564-3.387.484-4.942-.55-.792-1.428-1.268-2.326-1.3-1.23.012-2.065.56-2.734 1.339zm12.438-1.124c-1.145.037-2.071.83-2.637 1.686-.647.979-1.025 2.204-.501 3.406 1.007 2.31 4.486 2.282 5.875-.067.64-1.082.476-2.312 0-3.205-.475-.893-1.192-1.62-2.236-1.786a2.617 2.617 0 0 0-.501-.034zm10.098.217a3.835 3.835 0 0 0-1.068.117c-1.377.367-2.548 1.788-2.37 3.606.09.914.51 1.806 1.268 2.42.759.615 1.86.89 3.021.652 1.335-.274 2.161-1.349 2.437-2.388.276-1.038.207-2.096-.434-2.954-.709-.95-1.782-1.428-2.854-1.453zm-19.896 1.703c.257.002.46.084.668.384.467.674.337 1.694-.134 2.103-.47.409-.762.446-.968.418-.205-.028-.413-.17-.6-.434-.357-.503-.462-1.318.007-1.9.25-.331.708-.538 1.027-.571zm9.948.234c.04.006.487.266.701.667.214.402.254.775.05 1.119-.605 1.023-1.892.747-2.086.3-.074-.169-.019-.852.334-1.385.352-.533.795-.734 1.001-.701zm11.083.784c.065.087.224.671.1 1.136-.123.464-.324.75-.818.85-.632.13-.985 0-1.251-.216-.267-.216-.446-.58-.484-.968-.095-.965.252-1.19.8-1.336.642-.157 1.364.117 1.653.534z"
+                  fill="#FFF"
+                  fill-rule="nonzero"
+                />
+              </svg>
+              <h1 class="font-poppins text-veryPaleBlue text-2xl">Hunddle</h1>
+            </div>
+            <p class="text-veryPaleBlue font-openSans text-sm md:text-base">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris nulla quam, hendrerit lacinia vestibulum a, ultrices quis sem.</p>
+          </div>
+
+          <div class="flex gap-2">
+            <img src="images/icon-phone.svg" alt="icon-phone" />
+            <p class="text-veryPaleBlue font-openSans text-sm md:text-base">Phone: +1-543-123-4567</p>
+          </div>
+
+          <div class="flex gap-2">
+            <img src="images/icon-email.svg" alt="icon-email" />
+            <p class="text-veryPaleBlue font-openSans text-sm md:text-base">example@huddle.com</p>
+          </div>
+
+          <div>
+            <i class="bx bxl-facebook-square text-veryPaleBlue text-3xl"></i>
+            <i class="bx bxl-instagram text-veryPaleBlue text-3xl"></i>
+            <i class="bx bxl-twitter text-veryPaleBlue text-3xl"></i>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- footer end  -->
+
+    <!-- javascript -->
+    <script>
+      ScrollReveal({
+        reset: false,
+        distance: "50%",
+        easing: "ease",
+        duration: 1000,
+      });
+
+      ScrollReveal().reveal(".header-h1", {
+        reset: false,
+        origin: "bottom",
+      });
+
+      ScrollReveal().reveal(".header-p", {
+        reset: false,
+        origin: "bottom",
+        delay: 200,
+      });
+
+      ScrollReveal().reveal(".header-btn", {
+        reset: false,
+        delay: 400,
+      });
+    </script>
+  </body>
+</html>
