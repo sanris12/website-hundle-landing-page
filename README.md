@@ -26,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/sanris12/website-hundle-landing-page](https://github.com/sanris12/website-hundle-landing-page)
+- Live Site URL: [https://website-hundle-landing-page.vercel.app](https://website-hundle-landing-page.vercel.app)
 
 ### Built with
 
